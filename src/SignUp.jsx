@@ -71,6 +71,76 @@ const SignUp = () => {
 
     return (
         <div className="auth-container">
+            {/* Robot Visual */}
+            <div className="robot-visual">
+                <svg viewBox="0 0 200 280" xmlns="http://www.w3.org/2000/svg">
+                    {/* Robot Body */}
+                    <g className="robot-body">
+                        {/* Head */}
+                        <g className="robot-head">
+                            <rect x="60" y="20" width="80" height="80" fill="#D84315" rx="8" strokeWidth="2" stroke="#B71C1C" />
+                            {/* Eyes */}
+                            <circle cx="80" cy="50" r="8" fill="#FFB74D" />
+                            <circle cx="120" cy="50" r="8" fill="#FFB74D" />
+                            {/* Eye shine */}
+                            <circle cx="82" cy="48" r="3" fill="white" />
+                            <circle cx="122" cy="48" r="3" fill="white" />
+                            {/* Mouth */}
+                            <path d="M 80 70 Q 100 78 120 70" stroke="#B71C1C" strokeWidth="2" fill="none" strokeLinecap="round" />
+                        </g>
+
+                        {/* Neck */}
+                        <rect x="85" y="100" width="30" height="15" fill="#A1887F" />
+
+                        {/* Body/Torso */}
+                        <rect x="50" y="115" width="100" height="90" fill="#FF8A65" rx="8" strokeWidth="2" stroke="#D84315" />
+
+                        {/* Chest panel */}
+                        <rect x="65" y="130" width="70" height="50" fill="#FFB74D" rx="4" opacity="0.6" />
+                        {/* Chest details */}
+                        <circle cx="85" cy="155" r="4" fill="#D84315" />
+                        <circle cx="100" cy="155" r="4" fill="#D84315" />
+                        <circle cx="115" cy="155" r="4" fill="#D84315" />
+
+                        {/* Left Arm */}
+                        <g className="robot-arm-left">
+                            <rect x="20" y="130" width="30" height="20" fill="#FF7043" rx="4" strokeWidth="1" stroke="#D84315" />
+                            {/* Left Hand */}
+                            <circle cx="15" cy="140" r="12" fill="#A1887F" strokeWidth="1" stroke="#8D6E63" />
+                            <circle cx="12" cy="135" r="3" fill="#8D6E63" />
+                            <circle cx="12" cy="145" r="3" fill="#8D6E63" />
+                            <circle cx="18" cy="132" r="3" fill="#8D6E63" />
+                            <circle cx="18" cy="148" r="3" fill="#8D6E63" />
+                        </g>
+
+                        {/* Right Arm */}
+                        <g className="robot-arm-right">
+                            <rect x="150" y="130" width="30" height="20" fill="#FF7043" rx="4" strokeWidth="1" stroke="#D84315" />
+                            {/* Right Hand */}
+                            <circle cx="185" cy="140" r="12" fill="#A1887F" strokeWidth="1" stroke="#8D6E63" />
+                            <circle cx="188" cy="135" r="3" fill="#8D6E63" />
+                            <circle cx="188" cy="145" r="3" fill="#8D6E63" />
+                            <circle cx="182" cy="132" r="3" fill="#8D6E63" />
+                            <circle cx="182" cy="148" r="3" fill="#8D6E63" />
+                        </g>
+
+                        {/* Left Leg */}
+                        <rect x="65" y="205" width="20" height="60" fill="#FF7043" rx="4" strokeWidth="1" stroke="#D84315" />
+                        {/* Left Foot */}
+                        <ellipse cx="75" cy="268" rx="14" ry="8" fill="#8D6E63" strokeWidth="1" stroke="#654321" />
+
+                        {/* Right Leg */}
+                        <rect x="115" y="205" width="20" height="60" fill="#FF7043" rx="4" strokeWidth="1" stroke="#D84315" />
+                        {/* Right Foot */}
+                        <ellipse cx="125" cy="268" rx="14" ry="8" fill="#8D6E63" strokeWidth="1" stroke="#654321" />
+
+                        {/* Power indicator lights */}
+                        <circle cx="85" cy="190" r="4" fill="#4CAF50" opacity="0.8" />
+                        <circle cx="115" cy="190" r="4" fill="#4CAF50" opacity="0.8" />
+                    </g>
+                </svg>
+            </div>
+
             <div className="auth-card">
                 <h2>Create Account</h2>
                 <form onSubmit={handleRegister}>

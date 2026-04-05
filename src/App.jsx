@@ -101,6 +101,9 @@ const Home = () => {
                         <a href="#about">About</a>
                     </li>
                     <li>
+                        <a href="#team">Team</a>
+                    </li>
+                    <li>
                         <a href="#login">Login</a>
                     </li>
                 </ul>
