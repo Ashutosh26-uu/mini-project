@@ -177,19 +177,19 @@ const Home = () => {
                         <div className="team-card">
                             <div className="team-avatar">A</div>
                             <h3>Ashutosh Mishra</h3>
-                            <p>Full Stack Developer</p>
+                            <p>B.Tech 2nd Year student Full Stack Developer</p>
                             <p className="team-bio">Passionate about building tools that help developers learn and grow faster.</p>
                         </div>
                         <div className="team-card">
-                            <div className="team-avatar">C</div>
-                            <h3>CodeExplainer Team</h3>
-                            <p>Open Source Contributors</p>
+                            <div className="team-avatar">V</div>
+                            <h3>Vashnavi Gupta</h3>
+                            <p>B.Tech 2nd Year student & Open Source Contributors</p>
                             <p className="team-bio">Part of an amazing community committed to improving developer experience.</p>
                         </div>
                         <div className="team-card">
-                            <div className="team-avatar">Y</div>
-                            <h3>You?</h3>
-                            <p>Community Developer</p>
+                            <div className="team-avatar">M</div>
+                            <h3>Manjul Mauriya</h3>
+                            <p>B.Tech 2nd Year student </p>
                             <p className="team-bio">Join us in making CodeExplainer better. We're always looking for contributors!</p>
                         </div>
                     </div>
@@ -204,7 +204,7 @@ const Home = () => {
                         <div className="footer-section">
                             <h4>Contact</h4>
                             <p>
-                                Email: <a href="mailto:ashutosh26.dev@gmail.com">ashutosh26.dev@gmail.com</a>
+                                Email: <a href="mailto:ashutoshmuu2428@gmail.com">ashutoshmuu2428@gmail.com</a>
                             </p>
                             <p>
                                 GitHub: <a href="https://github.com/Ashutosh26-uu" target="_blank" rel="noopener noreferrer">
@@ -233,7 +233,7 @@ const Home = () => {
                     </div>
                 </footer>
             </main>
-        </div>
+        </div >
     );
 };
 
